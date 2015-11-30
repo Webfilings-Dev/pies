@@ -10,6 +10,9 @@ env:
   - EATS=TASTY_PIES
   - EAT_PIES_SLOWLY=2
 
+script:
+  - echo "Lollipop!"
+
 after_script:
   - tar -C docs -cvzf ./pie-help.tar.gz html
 
