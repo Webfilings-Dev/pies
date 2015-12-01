@@ -14,7 +14,7 @@ script:
   - echo "Lollipop!"
 
 after_script:
-  - tar -C docs -cvzf ./pie-help.tar.gz html
+  - tar -C docs/html -cvzf ./pie-help.tar.gz .
 
 artifacts:
   documentation:
